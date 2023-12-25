@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(num1.getText().toString().matches("")  || num2.getText().toString().matches("")  ){
-                    Toast.makeText(MainActivity.this,"Fied Not Emty",Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this,"Field Not Empty",Toast.LENGTH_LONG).show();
                 }else{
                 resultMax.setText(max(Integer.parseInt(num1.getText().toString()),Integer.parseInt(num2.getText().toString())));
                 resultMin.setText(min(Integer.parseInt(num1.getText().toString()),Integer.parseInt(num2.getText().toString())));
