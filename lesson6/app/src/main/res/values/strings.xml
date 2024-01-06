@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">changeBaseNumber</string>
+    <string name="onClick">onClickCalculate</string>
 </resources>

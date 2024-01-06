@@ -12,7 +12,7 @@
         android:layout_height="43dp"
         android:layout_marginStart="152dp"
         android:layout_marginTop="44dp"
-        android:text="Button"
+        android:text="Calculate"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resultMax" />
 
