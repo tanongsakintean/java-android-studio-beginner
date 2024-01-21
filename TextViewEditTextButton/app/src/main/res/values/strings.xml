@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TextView EditText Button</string>
+    <string name="onClickEditText">onClickEditText</string>
+</resources>

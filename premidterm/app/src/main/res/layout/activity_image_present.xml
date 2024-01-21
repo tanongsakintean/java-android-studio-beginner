@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".imagePresent">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFD53B"
+        android:paddingVertical="2dp"
+        android:text="โปรแกรมนำเสนอภาพ"
+        android:textAlignment="center"
+        android:textColor="#0000FF"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="#FFEB3B"
+        android:padding="20dp"
+        android:paddingVertical="2dp"
+        android:text="FITM KMUTNB Prachin"
+        android:textAlignment="center"
+        android:textColor="#FF69FC"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="242dp"
+        android:background="#EDEBD2"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10dp"
+        android:paddingTop="30dp">
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#3F51B5"
+            android:text="ก่อนหน้า" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#3F51B5"
+            android:text="ต่อไป" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="#3F51B5"
+        android:text="ย้อนกลับ"
+        app:icon="@android:drawable/ic_menu_revert" />
+</LinearLayout>
